@@ -9,7 +9,7 @@ SoftwareSerial SerialGPS(4, 5);//tx,rx
 
 SoftwareSerial lora(13, 15);//tx,rx
  
-float Latitude=11.360040 , Longitude=77.827370;
+float Latitude,Longitude;
  String LatitudeString , LongitudeString;
 void setup()
 {
