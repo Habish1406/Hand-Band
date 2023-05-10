@@ -6,7 +6,7 @@ int i;
   char *p;
   char string[128];
   
-  String words[50],latit="11.360040",longit="77.827370",LatitudeString,LongitudeString;
+  String words[50],latit,longit,LatitudeString,LongitudeString;
   float f[10];
 void setup()
 {
